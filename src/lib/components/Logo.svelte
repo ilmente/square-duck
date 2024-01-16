@@ -22,7 +22,6 @@
   .body {
     position: absolute;
     left: 0;
-    /* right: 0; */
     display: block;
     height: 100%;
     width: 80%;
@@ -58,7 +57,7 @@
     height: 70%;
     margin: 4% 0 0 4%;
     border-radius: 100%;
-    background-color: var(--color-text-0);
+    background-color: var(--color-text-1);
   }
 
   .eye.right {
