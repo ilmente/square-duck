@@ -1,0 +1,37 @@
+[data-paper] {
+  container-type: inline-size;
+  font-family: var(--font-serif);
+  letter-spacing: 0;
+  line-height: 1;
+
+  .placeholder {
+    font-size: 5cqw;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--color-text-0);
+    text-align: center;
+  }
+
+  div {
+    font-size: 1.1cqw;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  h1 {
+    font-size: 12cqw;
+    font-weight: bold;
+    text-transform: none;
+    text-align: center;
+  }
+}
+
+@media print {
+  [data-paper] * {
+    background-color: transparent;
+    color: black;
+  }
+}

@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: var(--color-bg-1);
+	background-color: var(--color-bg-0);
 }
 
 p {
@@ -30,9 +30,8 @@ a:hover {
 
 h1, h2, h3 {
   margin-bottom: 1rem;
-  font-family: var(--font-mono);
   text-transform: uppercase;
-  color: var(--color-text-0)
+  color: var(--color-text-1)
 }
 
 h1 {

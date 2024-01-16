@@ -12,8 +12,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@fontsource-variable/material-symbols-rounded": "^5.0.21",
-		"@fontsource/share-tech-mono": "^5.0.8"
+		"@fontsource-variable/material-symbols-rounded": "^5.0.21"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
