@@ -1,2 +1,3 @@
-# square-duck
+# Square Duck
+
 Square Duck web app

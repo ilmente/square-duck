@@ -1,0 +1,71 @@
+::selection {
+  background-color: var(--color-highlight);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+	font: inherit;
+	color: inherit;
+}
+
+body {
+	background-color: var(--color-bg-1);
+}
+
+p {
+  margin-bottom: 1rem;
+	line-height: var(--line-heght-wide);
+}
+
+a {
+	color: var(--color-text-2);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  color: var(--color-text-0)
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+strong {
+  background-color: var(--color-highlight);
+}
+
+em {
+  font-style: italic;
+}
+
+input,
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+button {
+  color: var(--color-text-0);
+  cursor: pointer;
+}
