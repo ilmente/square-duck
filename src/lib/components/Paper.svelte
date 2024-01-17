@@ -1,6 +1,6 @@
 <script lang="ts">
   export let title = '';
-  export let image = '';
+  export let text = '';
   export let placeholder = '';
 </script>
 
@@ -8,12 +8,9 @@
   <div class="paper__frame">
     <div class="paper__title">
       {#if title}<h1>{title}</h1>{/if}
-      {#if !title}<span class="placeholder">{placeholder}</span>{/if}
+      {#if !title && !text}<span class="placeholder no-print">{placeholder}</span>{/if}
     </div>
-    <figure class="paper__image">
-      {#if image}<img src={image} alt={title} />{/if}
-    </figure>
-    <article class="paper__text"><slot /></article>
+    <article class="paper__text">{@html text}</article>
   </div>
 </section>
 
@@ -41,7 +38,7 @@
     right: var(--frame-margin);
     display: grid;
     gap: var(--frame-margin);
-    grid-template-rows: auto min-content max-content;
+    grid-template-rows: auto min-content;
     border: var(--outline);
     overflow: hidden;
   }
@@ -50,9 +47,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .paper__image {
   }
 
   .paper__text {
@@ -68,11 +62,12 @@
     }
 
     .paper__frame {
+      position: static;
+      height: 100vh;
+      width: 100vw;
+      padding: 1cqw;
+      background-color: transparent;
       border: none;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
     }
   }
 </style>

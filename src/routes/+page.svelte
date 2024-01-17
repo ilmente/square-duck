@@ -5,7 +5,8 @@
   import Logo from '$lib/components/Logo.svelte';
   import Paper from '$lib/components/Paper.svelte';
 
-  let title = '', text = '';
+  let title = '';
+  let text = '';
 
   onMount(async () => {
     const definition = await getRandomDefinition();
@@ -15,9 +16,7 @@
 </script>
 
 <Layout>
-  <Paper slot="paper" title={title} placeholder="Looking for a word...">
-    {@html text}
-  </Paper>
+  <Paper slot="paper" {title} {text} placeholder="Looking for a word..." />
   <div class="logo">
     <Logo size={10} />
   </div>
@@ -33,8 +32,8 @@
   </p>
   <h2>So&#8230; How does it work?</h2>
   <p>
-    <a href="/">Go here</a>, <strong>choose a title, add some text</strong>, add an image (if you want), see how it looks in
-    the preveiw <strong>and print it</strong>.
+    <a href="/">Go here</a>, <strong>choose a title, add some text</strong>, see how it looks in
+    preveiw <strong>and print it</strong>.
     <br /><em>That's it!</em>
   </p>
 </Layout>

@@ -4,12 +4,13 @@
 	--font-mono: 'Share Tech Mono', monospace;
 	--font-serif: 'Playfair Display', 'Times new roman', serif;
 	--font-icon: 'Material Symbols Rounded Variable';
-  --line-heght-default: 1;
-  --line-heght-wide: 1.3;
+  --line-height-default: 1;
+  --line-height-wide: 1.3;
 
 	--color-bg-0: #f3f3f3;
 	--color-bg-1: #fcfcfc;
-  --color-border: #e4e4e4;
+  --color-bg-2: #ebebeb;
+  --color-border: #ddd;
   --color-outline: #fdc3c3;
   --color-highlight: #ffe787;
   --color-shadow: #ccc;
@@ -23,7 +24,7 @@
 
 	font-family: var(--font-mono);
   font-size: 16px;
-  line-height: var(--line-heght-default);
+  line-height: var(--line-height-default);
   letter-spacing: -0.5px;
 	color: var(--color-text-0);
 }

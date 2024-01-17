@@ -12,7 +12,7 @@
   }
 </script>
 
-<div class="layout">
+<div class="layout {$$restProps.class}">
   <header class="layout__header">
     <a class="layout__menu-item layout__menu-item--logo" href="/"><Logo /></a>
     <a class="layout__menu-item" class:layout__menu-item--active={isActive('/')} href="/">Welcome</a>
@@ -175,10 +175,9 @@
     .layout,
     .layout__main {
       display: block;
-      height: 297mm;
-      width: 210mm;
       border: 0;
       background-color: transparent;
+      overflow: visible;
     }
   }
 </style>
