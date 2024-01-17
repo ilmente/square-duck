@@ -3,8 +3,8 @@
 </script>
 
 <Layout>
-  <h1>Error</h1>
+  <h1>Whoops!</h1>
   <p>
-    Whoops! Something went wrong...
+    Something went wrong...
   </p>
 </Layout>

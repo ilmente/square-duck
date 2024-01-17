@@ -34,7 +34,7 @@
   <p>
     <a href="/">Go here</a>, <strong>choose a title, add some text</strong>, see how it looks in
     preveiw <strong>and print it</strong>.
-    <br /><em>That's it!</em>
+    <em>That's it!</em>
   </p>
 </Layout>
 

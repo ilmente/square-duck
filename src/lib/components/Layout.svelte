@@ -31,7 +31,10 @@
   </div>
   <footer class="layout__footer">
     <span>
-      Square Duck is handmade with ❤️ by&nbsp;<a href="https://ilmente.com" target="_blank">ilmente</a>
+      Square Duck is
+      <a href="https://github.com/ilmente/square-duck" target="_blank">hand made</a>
+      with &#9829; by
+      <a href="https://ilmente.com" target="_blank">ilmente</a>
     </span>
   </footer>
 </div>
