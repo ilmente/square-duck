@@ -32,7 +32,7 @@
   </p>
   <h2>So&#8230; How does it work?</h2>
   <p>
-    <a href="/">Go here</a>, <strong>choose a title, add some text</strong>, see how it looks in
+    <a href="/custom-frame">Go here</a>, <strong>choose a title, add some text</strong>, see how it looks in
     preveiw <strong>and print it</strong>.
     <em>That's it!</em>
   </p>
